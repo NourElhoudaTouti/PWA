@@ -1,0 +1,8 @@
+<mat-grid-list cols="2" rowHeight="300px">
+  <mat-grid-tile
+    *ngFor="let Trip of ( Trips| async)"
+    [colspan]="1"
+    [rowspan]="1">
+    <app-app-Trips [Trip]="Trip"></app-app-Trips>
+  </mat-grid-tile>
+</mat-grid-list>

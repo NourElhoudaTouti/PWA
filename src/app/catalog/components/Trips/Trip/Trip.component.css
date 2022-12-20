@@ -1,0 +1,12 @@
+.Trip {
+  width: 100px;
+  text-align: center;
+}
+
+.Trip-title{
+  font-size: 80%;
+}
+
+.Trip-actions {
+  text-align: right;
+}

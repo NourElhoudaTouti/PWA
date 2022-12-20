@@ -1,0 +1,9 @@
+<mat-card class="Trip">
+  <mat-card-header>
+    <mat-card-title class="product-title">{{ Trip.brand.name }}<br/>{{ Trip.name }}</mat-card-title>
+    <mat-card-subtitle>{{ Trip.price | currency }}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-actions class="Trip-actions">
+    <button mat-button (click)="addToShoppingCart()"><mat-icon>add_shopping_cart</mat-icon></button>
+  </mat-card-actions>
+</mat-card>

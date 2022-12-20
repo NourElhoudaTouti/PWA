@@ -1,0 +1,10 @@
+<div class="brands">
+  <mat-action-list>
+    <div *ngFor="let brand of (brands | async)">
+      <mat-divider></mat-divider>
+      <button mat-list-item (click)="navigate(brand.id);">
+        {{ brand.name }}
+      </button>
+    </div>
+  </mat-action-list>
+</div>
